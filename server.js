@@ -6,7 +6,7 @@ const io = require('socket.io')(server);
 const { ExpressPeerServer } = require('peer');
 const { name } = require('ejs');
 //data base connections
-const DB = "mongodb+srv://ghazanfar:DHfFyNtfUmEHgcQe@info.fz4drym.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://ghazanfar:<password>e@info.fz4drym.mongodb.net/?retryWrites=true&w=majority";
 const mongoose = require('mongoose');
 const user = require('./models/user');
 mongoose.connect(DB).then(()=>{
