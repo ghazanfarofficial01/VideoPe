@@ -110,14 +110,87 @@ video{
     color: #F5F5F5;
 }
 
-.leave_meeting {
+.leave_meeting , .leave__room {
     color: #EB534B;
 }
 
+.leave__room:hover{
+    text-decoration: unset;
+    color: #EB534B;
+
+}
 .unmute, .stop {
     color: #CC3B33;
 }
 
 .messages{
     color: whitesmoke;
+}
+
+.wrapper {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: #1C1E20;
+    height: 100vh;
+}
+.wrapper span{
+    color: darkblue;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.container__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.brand__name{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-weight: 800;
+    font-size: 55px;
+    letter-spacing: 2px;
+    
+}
+.brand__name h1{
+    font-weight: bolder;
+}
+.main__header h2{
+  color: black;
+  font-size: 24px;
+  
+}
+
+.button .submit_btn{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(99, 119, 251);
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.button .submit_btn:hover{
+    transition: ease-in-out 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
 }

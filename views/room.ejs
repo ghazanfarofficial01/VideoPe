@@ -27,6 +27,8 @@
     ></script>
     <script>
       const ROOM_ID = "<%= roomId %>";
+      const Name = "<%= name %>"
+      
     </script>
     <title>ROOM</title>
   </head>
@@ -69,7 +71,8 @@
           </div>
           <div  class="main__controls__block">
             <div class="main__controls__button">
-              <span class="leave_meeting">Leave Meeting</span>
+              <span class="leave_meeting"><a 
+                onclick="leaveMeet()" class = "leave__room" href="/thanks">Leave Meeting</a></span>
             </div>
           </div>
         </div>
